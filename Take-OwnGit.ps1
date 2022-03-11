@@ -1,5 +1,5 @@
 #  Testing THIS
-#testing Folder Ownership on PEX-ITSD-01
+#testing Folder Ownership on \\Servername
 
 $NewAcl = Get-Acl -Path "\\Servername\P$\Profiles\user1\"
 # Set properties
