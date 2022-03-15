@@ -3,7 +3,7 @@
 
 $NewAcl = Get-Acl -Path "\\Servername\P$\Profiles\user1\"
 # Set properties
-    $identity = "QUANTUM\user1"
+    $identity = "DOMAIN\user1"
     $fileSystemRights = "FullControl"
     $type = "Allow"
 # Create new rule
